@@ -29,7 +29,7 @@ function Imagen() {
         </div>
         <div class="row">
           <div class="col">
-            <p>Licencia</p>
+            <p>Licencia - </p>
             <p>Detalles</p>
           </div>
         </div>
