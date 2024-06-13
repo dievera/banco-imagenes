@@ -13,7 +13,7 @@ function OffcanvasExample() {
         <Navbar
           key={expand}
           expand={expand}
-          className="bg-body-tertiary mb-3"
+          className="bg-body-tertiary"
           data-bs-theme="dark"
         >
           <Container fluid>
@@ -34,14 +34,14 @@ function OffcanvasExample() {
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/card">Card</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Menu"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="/Contacto">
-                      Contacto
+                    <NavDropdown.Item href="/Imagen">
+                      Imagen
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
+                    <NavDropdown.Item href="/Autor">
+                      Autor
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">

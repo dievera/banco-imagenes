@@ -6,9 +6,9 @@ function Home() {
   return (
     <>
       <div class="container">
-        <div class="row">
+        <div class="row img-back">
           <div class="col">
-            <h1 class="display-1">Titulo</h1>
+            <h1 class="display-1 text-center">Titulo</h1>
             <form action="">
               <div class="input-group mb-3">
                 <input
@@ -28,28 +28,28 @@ function Home() {
               </div>
             </form>
           </div>
-        </div>
+          </div>
         <div class="row">
-          <div class="col">
+          <div class="col pb-2">
             <div>
               <form action="tag">
-                <a class="btn btn-primary" href="#" role="button">
+                <a class="btn btn-primary m-1" href="#" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary" href="#" role="button">
+                <a class="btn btn-primary m-1" href="#" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary" href="#" role="button">
+                <a class="btn btn-primary m-1" href="#" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary" href="#" role="button">
+                <a class="btn btn-primary m-1" href="#" role="button">
                   Link
                 </a>
               </form>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row p-1">
           <div class="col">
             <form action="filtros">
               <select class="form-select" aria-label="Default select example">
@@ -71,26 +71,26 @@ function Home() {
             </form>
           </div>
           <div class="col">
-            <button type="submit">Descargar</button>
+            <button type="submit" class="btn btn-outline-primary">Descargar</button>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+        <div class="row py-2">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <a href="/Imagen">
               <img src={Img1} class="img-fluid" alt="..." />
             </a>
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <a href="/Imagen">
               <img src={Img1} class="img-fluid" alt="..." />
             </a>
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <a href="/Imagen">
               <img src={Img1} class="img-fluid" alt="..." />
             </a>
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <a href="/Imagen">
               <img src={Img1} class="img-fluid" alt="..." />
             </a>

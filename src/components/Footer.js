@@ -3,14 +3,15 @@ function Ejemplo() {
       <>
       <footer>
         <h4>Redes sociales</h4>
-        <a href="#">Facebook</a>
-        <a href="#">X</a>
-    </footer>
+        
         <div class="container">
           <div class="row">
-            <div class="col"></div>
+            <div class="col"><a href="#">Facebook</a>
+        <a href="#">X</a>
+    </div>
           </div>
         </div>
+      </footer>
       </>
     );
   }

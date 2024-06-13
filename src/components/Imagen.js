@@ -6,7 +6,7 @@ function Imagen() {
     <>
       <div class="container">
         <form action="">
-          <div class="row">
+          <div class="row py-2">
             <div class="col">
               <select class="form-select" aria-label="Default select example">
                 <option selected>Open this select menu</option>
@@ -22,7 +22,7 @@ function Imagen() {
             </div>
           </div>
         </form>
-        <div class="row">
+        <div class="row py-2">
           <div class="col">
             <img src={Img1} class="img-fluid" alt="..." />
           </div>
@@ -33,7 +33,7 @@ function Imagen() {
             <p>Detalles</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row py-2">
           <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-xs-2 col-2">
             <a href="/Autor">
               <img src={Img2} alt="" class="img-user" />
@@ -44,17 +44,17 @@ function Imagen() {
             <p>Detalles</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+        <div class="row py-2">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <img src={Img1} class="img-fluid" alt="..." />
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <img src={Img1} class="img-fluid" alt="..." />
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <img src={Img1} class="img-fluid" alt="..." />
           </div>
-          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
+          <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 mb-3">
             <img src={Img1} class="img-fluid" alt="..." />
           </div>
         </div>

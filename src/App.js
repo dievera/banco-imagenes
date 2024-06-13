@@ -1,7 +1,6 @@
 import "./styles.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Card from "./components/Card";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Imagen from "./components/Imagen";
@@ -17,7 +16,6 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-              <Route path="Card" element={<Card />} />
             <Route path="Imagen" element={<Imagen />} />
             <Route path="Autor" element={<Autor />} />
             <Route path="Footer" element={<Footer />} />
