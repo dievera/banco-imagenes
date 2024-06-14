@@ -33,16 +33,16 @@ function Home() {
           <div class="col pb-2">
             <div>
               <form action="tag">
-                <a class="btn btn-primary m-1" href="#" role="button">
+                <a class="btn btn-primary m-1" href="/" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary m-1" href="#" role="button">
+                <a class="btn btn-primary m-1" href="/" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary m-1" href="#" role="button">
+                <a class="btn btn-primary m-1" href="/" role="button">
                   Link
                 </a>
-                <a class="btn btn-primary m-1" href="#" role="button">
+                <a class="btn btn-primary m-1" href="/" role="button">
                   Link
                 </a>
               </form>
