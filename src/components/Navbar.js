@@ -32,15 +32,15 @@ function OffcanvasExample() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/card">Card</Nav.Link>
+                  <Nav.Link href="/">Card</Nav.Link>
                   <NavDropdown
                     title="Menu"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="/Imagen">
+                    <NavDropdown.Item href="/imagen">
                       Imagen
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/Autor">
+                    <NavDropdown.Item href="/autor">
                       Autor
                     </NavDropdown.Item>
                     <NavDropdown.Divider />

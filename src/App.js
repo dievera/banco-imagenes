@@ -1,11 +1,11 @@
 import "./styles.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Home from "./components/Home";
+import Home from "./components/home";
 import Navbar from "./components/Navbar";
-import Imagen from "./components/Imagen";
-import Autor from "./components/Autor";
-import Footer from "./components/Footer";
+import Imagen from "./components/imagen";
+import Autor from "./components/autor";
+import Footer from "./components/footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="Imagen" element={<Imagen />} />
-            <Route path="Autor" element={<Autor />} />
-            <Route path="Footer" element={<Footer />} />
+            <Route path="imagen" element={<Imagen />} />
+            <Route path="autor" element={<Autor />} />
+            <Route path="footer" element={<Footer />} />
           </Routes>
           <Footer />
         </Router>
