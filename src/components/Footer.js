@@ -7,7 +7,7 @@ function Ejemplo() {
         <div class="container">
           <div class="row">
             <div class="col"><a href="/">Facebook</a>
-        <a href="#">X</a>
+        <a href="/">X</a>
     </div>
           </div>
         </div>
